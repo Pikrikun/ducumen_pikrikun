@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smoothmd-" flex justify-evenly>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- bootrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- css tailwind -->
+    <link href="css/output.css" rel="stylesheet" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- footer css -->
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <title>Document Fikcrks</title>
+  </head>
+  <body>
+    <!-- navabr -->
+    <div class="navbar-fixed">
+      <nav class="bg-cyan-500">
+        <div class="nav-wrapper container">
+          <a href="#" class="brand-logo uppercase font-mono fs-3 text-before">Pikrikun</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#about" class="text-before"> About Us </a>
+            </li>
+            <li>
+              <a href="#clients" class="text-before"> Client </a>
+            </li>
+            <li><a href="#service" class="text-before"> Service </a></li>
+            <li>
+              <a href="#portfolio" class="text-before"> Porfolio </a>
+            </li>
+            <li>
+              <a href="#contact" class="text-before"> Contact Us </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="#about" class="text-before"> About Us </a>
+      </li>
+      <li>
+        <a href="#clients" class="text-before"> Client </a>
+      </li>
+      <li><a href="#service" class="text-before"> Service </a></li>
+      <li>
+        <a href="#portfolio" class="text-before"> Porfolio </a>
+      </li>
+      <li>
+        <a href="#contact" class="text-before"> Contact Us </a>
+      </li>
+    </ul>
+
+    <!-- slinder -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img class="bg-cover select-none" src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3 class="text-lg">This is our big Tagline!</h3>
+            <h5 class="light text-base grey-text text-lighten-3 mt-1 -mx-10 md:mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit hic error ducimus labore quisquam voluptate suscipit nobis soluta.</h5>
+          </div>
+        </li>
+        <li>
+          <img
+            class="bg-cover select-none"
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHw3fHxCdXNpbmVzc3xlbnwwfHx8fDE2NDQzMjg5Njk&ixlib=rb-1.2.1&q=80&w=1080"
+          />
+          <!-- random image -->
+          <div class="caption right-align">
+            <h3 class="text-lg">Left Aligned Caption</h3>
+            <h5 class="light text-base grey-text text-lighten-3 mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ad odio ipsam porro soluta a eligendi.</h5>
+          </div>
+        </li>
+        <li>
+          <img
+            class="bg-cover select-none"
+            src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwxOXx8QnVzaW5lc3N8ZW58MHx8fHwxNjQ0MzI4OTY5&ixlib=rb-1.2.1&q=80&w=1080"
+          />
+          <!-- random image -->
+          <div class="caption left-align">
+            <h3 class="text-lg">Right Aligned Caption</h3>
+            <h5 class="light text-base grey-text text-lighten-3 mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ad odio ipsam porro soluta a eligendi.</h5>
+          </div>
+        </li>
+        <li>
+          <img
+            class="bg-cover select-none"
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwyOHx8QnVzaW5lc3N8ZW58MHx8fHwxNjQ0MzI4OTY5&ixlib=rb-1.2.1&q=80&w=1080"
+          />
+          <!-- random image -->
+          <div class="caption right-align">
+            <h3 class="text-lg">This is our big Tagline!</h3>
+            <h5 class="light text-base grey-text text-lighten-3 mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, nesciunt officiis! Nulla, nostrum? Quis, explicabo fuga!</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- about -->
+    <div id="about" class="about pt-20 -mt-12">
+      <h1 class="uppercase font-medium text-center underline underline-offset-4 decoration-4 decoration-indigo-500">about us</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md mt-8">
+            <h1 class="fw-bolder text-capitalize">We are profesionals</h1>
+            <p class="mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione veritatis quidem sint, nostrum maxime porro eos consectetur autem praesentium laboriosam, enim obcaecati veniam ipsum quibusdam. Obcaecati sed eius
+              maxime!
+            </p>
+          </div>
+          <div class="col-md mt-8">
+            <h2 class="text-uppercase text-xl subpixel-antialiased font-mono">web devolopement</h2>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h2 class="text-uppercase text-xl subpixel-antialiased font-mono">mobile devolopement</h2>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 86%" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h2 class="text-uppercase text-xl subpixel-antialiased font-mono">game devolopement</h2>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- clients -->
+    <div class="clients pt-20 -mt-20" id="clients">
+      <div class="parallax-container">
+        <div class="parallax hue-rotate-15 brightness-110 contrast-50 w-full"><img src="img/laptop-gb6baf1365_1280.jpg" alt="laptop" /></div>
+        <div class="container">
+          <h1 class="text-slate-100 text-center text capitalize">our clients</h1>
+          <div class="row mt-4 flex items-center">
+            <div class="col-4 flex justify-center">
+              <img src="https://1.bp.blogspot.com/-UJYEPbPEiRk/XbbQexMsBtI/AAAAAAAABHA/8O7pcTOc1H8o5inCfi-leQLIc70V9MiUQCEwYBhgL/s1600/Shopee%2Blogo.png" class="max-h-36 drop-shadow-md" alt="" />
+            </div>
+            <div class="col-4 flex justify-center">
+              <img src="https://shopily-id.s3.amazonaws.com/uploads/stores/1072/1072_logo_5da8504d.png" alt="" class="max-h-20 drop-shadow-md" />
+            </div>
+            <div class="col-4 flex justify-center">
+              <img src="https://breakinghierarchy.com/wp-content/uploads/2020/12/traveloka_logo.png" class="max-h-20 drop-shadow-md" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sercive -->
+    <div id="service" class="pt-10 -mt-10"></div>
+    <div class="service bg-gray-200 pb-10">
+      <h1 class="uppercase font-medium text-center underline underline-offset-4 decoration-4 decoration-indigo-500 pt-10">service our</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md mt-10">
+            <div class="bg-white py-6 shadow-inner">
+              <i class="bi bi-display text-7xl flex justify-center mt-8 stroke-black"></i>
+              <h2 class="text-black h2 mx-4 text-center capitalize mt-2">web devolopement</h2>
+              <p class="text-center mt-2 mx-8 mb-14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eligendi aspernatur fugiat molestiae explicabo ipsa?</p>
+            </div>
+          </div>
+          <div class="col-md mt-10">
+            <div class="bg-white py-6 shadow-inner">
+              <i class="bi bi-phone-fill text-7xl flex justify-center mt-8 stroke-black awesome"></i>
+              <h2 class="text-black h2 text-center capitalize mt-2">mobile devolopement</h2>
+              <p class="text-center mt-2 mx-8 mb-14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eligendi aspernatur fugiat molestiae explicabo ipsa?</p>
+            </div>
+          </div>
+          <div class="col-md mt-10">
+            <div class="bg-white py-6 shadow-inner">
+              <i class="bi bi-controller text-7xl flex justify-center mt-8 stroke-black awesome"></i>
+              <h2 class="text-black h2 text-center capitalize mt-2">game devolopement</h2>
+              <p class="text-center mt-2 mx-8 mb-14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eligendi aspernatur fugiat molestiae explicabo ipsa?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+    <div class="portfolio pt-10 -mt-10" id="portfolio">
+      <h1 class="uppercase font-medium text-center underline underline-offset-4 decoration-4 decoration-indigo-500 pt-10 mb-4">portfolio</h1>
+      <div class="container">
+        <div class="row justify-evenly">
+          <!-- row 1 -->
+          <div class="col-md-3 mt-3">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_960_720.jpg" alt="" class="materialboxed drop-shadow-md rounded" />
+          </div>
+          <div class="col-md-3 mt-3">
+            <img
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwzfHx0ZWNobm9sb2d5fGVufDB8fHx8MTY0NDY3NDkzMQ&ixlib=rb-1.2.1&q=80&w=1080"
+              alt=""
+              class="materialboxed drop-shadow-md rounded"
+            />
+          </div>
+          <div class="col-md-3 mt-3">
+            <img
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwyfHx0ZWNobm9sb2d5fGVufDB8fHx8MTY0NDY3NDkzMQ&ixlib=rb-1.2.1&q=80&w=1080"
+              alt=""
+              class="materialboxed drop-shadow-md rounded"
+            />
+          </div>
+          <div class="col-md-3 mt-3">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="" class="materialboxed drop-shadow-md rounded" />
+          </div>
+        </div>
+        <div class="-mt-5">
+          <div class="row justify-evenly">
+            <div class="col-md-3 order-5 mt-3">
+              <img src="https://c.pxhere.com/photos/5e/ac/keyboard_computer_laptop_computing_technology_computer_keyboard_communication_work-478333.jpg!d" alt="" class="materialboxed drop-shadow-md rounded" />
+            </div>
+            <div class="col-md-3 order-5 mt-3">
+              <img
+                src="https://c.pxhere.com/photos/ec/4c/calculator_calculation_insurance_finance_accounting_pen_investment_office-1238368.jpg!d"
+                alt=""
+                class="h-52 md:h-32 xl:h-52 lg:h-44 2xl:h-64 w-full materialboxed drop-shadow-md rounded"
+              />
+            </div>
+            <div class="col-md-3 order-5 mt-3">
+              <img src="https://c.pxhere.com/photos/26/aa/macbook_laptop_ipad_apple_computer_mobile_screen_monitor-1083812.jpg!d " alt="" class="materialboxed drop-shadow-md rounded" />
+            </div>
+            <div class="col-md-3 order-5 mt-3">
+              <img src="https://c.pxhere.com/photos/68/c6/font_lead_set_book_printing_gutenberg_letters_hand_set_font_composing_room_typecases-743095.jpg!d" alt="" class="materialboxed drop-shadow-md rounded" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- w-full xl:w-9/12 lg:w-10/12 md:w-fit -->
+    <div class="contact pb-8 pt-10 -mt-10" id="contact">
+      <!-- h1 -->
+      <h1 class="uppercase font-medium text-center mt-10 underline underline-offset-4 decoration-4 decoration-indigo-500 mb-3">contact us</h1>
+      <!-- content -->
+      <div class="container-md">
+        <div class="row flex justify-center">
+          <div class="col-md-5 mt-4">
+            <div class="bg-primary h-auto pb-4 rounded-sm">
+              <i class="fa-solid fa-envelope flex justify-center"></i>
+              <h1 class="text-center text-white mt-2">Contact</h1>
+              <p class="text-center text-white mx-6 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quis laborum esse ullam ad, amet laudantium quisquam fuga, quia ipsa magnam nisi ex culpa aliquam sapiente iste?</p>
+            </div>
+            <ul class="list-group mt-3 shadow-md shadow-indigo-500/50">
+              <li class="list-group-item text-4xl font-normal capitalize py-6">our office</li>
+              <li class="list-group-item px-8 font-medium capitalize text-base">web programming pikri</li>
+              <li class="list-group-item px-8 font-medium capitalize text-base">Dusun I, Wirogunan, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57166</li>
+              <li class="list-group-item px-8 font-medium capitalize text-base">west java, indonesia</li>
+            </ul>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="bg-gray-200 h-auto pb-3 rounded-sm">
+              <h1 class="mx-4 pt-10 font-semibold text-center font-sans">Please fill out this form</h1>
+              <form class="row mx-2">
+                <div class="col-md-12 mt-3">
+                  <input type="text" class="form-control" id="validationDefault01" placeholder="Name" aria-label="Name" required />
+                </div>
+                <div class="col-md-12">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email" aria-label="Email" required />
+                </div>
+                <div class="col-md-12">
+                  <input type="number" class="form-control" id="validationDefault03 icon_prefix" placeholder="Phone Number" aria-label="Phone Number" required />
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" id="validationDefault05" placeholder="Message" aria-label="Message" required />
+                </div>
+                <div class="col-12 pt-4">
+                  <button class="btn bg-cyan-400 hover:bg-cyan-600 text-slate-100 shadow-md" type="submit">Submit form</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer last codingan -->
+    <footer class="footer mt-4">
+      <div class="container bottom_border">
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center pt-4">Copyright @2022 | Designed With by <a href="#">Tim Company Pikrikun</a></p>
+
+        <ul class="social_footer_ul">
+          <li>
+            <a href="http://webenlance.com" target="_black"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="http://webenlance.com" target="_black"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="http://youtube.com" target="_black"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="http://webenlance.com" target="_black"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+        <!--social_footer_ul ends here-->
+      </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
