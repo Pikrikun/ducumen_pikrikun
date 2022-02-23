@@ -4,7 +4,9 @@ M.Slider.init(slider, {
 });
 
 const sidenav = document.querySelectorAll(".sidenav");
-M.Sidenav.init(sidenav);
+M.Sidenav.init(sidenav, {
+  close: true,
+});
 
 const parallax = document.querySelectorAll(".parallax");
 M.Parallax.init(parallax);
