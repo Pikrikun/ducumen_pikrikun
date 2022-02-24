@@ -59,7 +59,7 @@ footer p {
 }
 
 .bottom_border {
-  border-bottom: 1px solid #323f45;
+  border-bottom: 1px solid #999;
   padding-bottom: 20px;
 }
 .foote_bottom_ul_amrc {
@@ -75,7 +75,7 @@ footer p {
   display: inline;
 }
 .foote_bottom_ul_amrc li a {
-  color: #999;
+  color: bisque;
   margin: 0 12px;
 }
 

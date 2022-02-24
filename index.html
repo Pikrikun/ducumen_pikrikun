@@ -58,7 +58,6 @@
       </nav>
     </div>
     <ul class="sidenav" id="mobile-demo">
-      <i class="bi bi-x btn-close text-reset" type="button" data-bs-dismiss="sidenav" aria-label="Close"></i>
       <li>
         <a href="#about" class="text-before"> About Us </a>
       </li>
@@ -277,8 +276,8 @@
                 <div class="col-md-12">
                   <input type="text" class="form-control" id="validationDefault05" placeholder="Message" aria-label="Message" required />
                 </div>
-                <div class="col-12 pt-4">
-                  <button class="btn bg-cyan-400 hover:bg-cyan-600 text-slate-100 shadow-md" type="submit">Submit form</button>
+                <div class="col-12 pt-4" id="liveToastBtn">
+                  <button class="btn bg-cyan-400 hover:bg-cyan-600 text-slate-100 shadow-md" type="submit" id="liveToastBtn">Submit form</button>
                 </div>
               </form>
             </div>
@@ -287,11 +286,23 @@
       </div>
     </div>
 
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded me-2" alt="..." />
+          <strong class="me-auto">Bootstrap</strong>
+          <small>11 mins ago</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">Hello, world! This is a toast message.</div>
+      </div>
+    </div>
+
     <!-- footer last codingan -->
     <footer class="footer mt-4">
       <div class="container bottom_border">
         <!--foote_bottom_ul_amrc ends here-->
-        <p class="text-center pt-4">Copyright @2022 | Designed With by <a href="#">Tim Company Pikrikun</a></p>
+        <p class="text-center pt-4">Copyright 2022 | Designed <i class="bi bi-heart-fill" style="color: red"></i> With by Tim <a href="#" class="hover:text-slate-400">Company Pikrikun</a></p>
 
         <ul class="social_footer_ul">
           <li>
